@@ -8,7 +8,7 @@ function onDeviceReady() {
 
 function deviceInfo() {
 
-	info =  'Hi, I am your smartphone :-)' + '\n' +
+	info =  'Hi Justyna Golemo, I am your smartphone :-)' + '\n' +
 			'=====' + '\n' +
 			'Device Name    : '     + device.name     + '\n' + 
 			'Device Cordova : '  + device.cordova + '\n' + 
@@ -19,4 +19,9 @@ function deviceInfo() {
 
 	navigator.notification.alert(info);
 	
+}
+
+function daneWlasciciela() {
+	info = 'Justyna Golemo';
+	navigator.notification.alert(info);
 }
